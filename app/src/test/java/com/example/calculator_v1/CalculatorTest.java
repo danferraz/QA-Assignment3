@@ -190,10 +190,24 @@ public class CalculatorTest {
     @Test
     //Test case#13
     //Description:
-    public void testDiv_input6and3_expectX() {
+    public void testDiv_input1and1_expect1() {
         //Arrange
-        double i = 6;
-        double j = 3;
+        double i = 1;
+        double j = 1;
+        //Act
+        Calculator calculator = new Calculator();
+        double result = calculator.Div(i,j);
+        //Assert
+        assertEquals(1.0, result, 1);
+    }
+
+    @Test
+    //Test case#15
+    //Description:
+    public void testDiv_input2and1_expect2() {
+        //Arrange
+        double i = 2;
+        double j = 1;
         //Act
         Calculator calculator = new Calculator();
         double result = calculator.Div(i,j);
@@ -204,29 +218,15 @@ public class CalculatorTest {
     @Test
     //Test case#15
     //Description:
-    public void testDiv_input6and3_expectX() {
+    public void testDiv_input9and3_expect3() {
         //Arrange
-        double i = 6;
+        double i = 9;
         double j = 3;
         //Act
         Calculator calculator = new Calculator();
         double result = calculator.Div(i,j);
         //Assert
-        assertEquals(2.0, result, 1);
-    }
-
-    @Test
-    //Test case#15
-    //Description:
-    public void testDiv_input6and3_expectX() {
-        //Arrange
-        double i = 6;
-        double j = 3;
-        //Act
-        Calculator calculator = new Calculator();
-        double result = calculator.Div(i,j);
-        //Assert
-        assertEquals(2.0, result, 1);
+        assertEquals(3.0, result, 1);
     }
 
 
