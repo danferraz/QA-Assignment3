@@ -202,7 +202,7 @@ public class CalculatorTest {
     }
 
     @Test
-    //Test case#15
+    //Test case#14
     //Description:
     public void testDiv_input2and1_expect2() {
         //Arrange
