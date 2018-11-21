@@ -226,7 +226,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         double result = calculator.Div(i,j);
         //Assert
-        assertEquals(3.0, result, 1);
+        assertEquals(3.0, result, 1); 
     }
 
 
