@@ -217,7 +217,6 @@ public class CalculatorTest {
 
     @Test
     //Test case#15
-    //Description:
     public void testDiv_input9and3_expect3() {
         //Arrange
         double i = 9;
@@ -226,7 +225,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         double result = calculator.Div(i,j);
         //Assert
-        assertEquals(3.0, result, 1); 
+        assertEquals(3.0, result, 1);
     }
 
 
