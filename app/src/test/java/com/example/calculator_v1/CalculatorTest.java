@@ -185,4 +185,29 @@ public class CalculatorTest {
         }
     }
 
+
+    // Requested tests==================================================
+    @Test
+    //Test case#13
+    //Description: Test to check the division of integer numbers. First input is 6 and second input is 3. It's expected an integer positive number result of 2.
+    public void testDiv_input6and3_expect2() {
+        //Arrange
+        double i = 6;
+        double j = 3;
+        //Act
+        Calculator calculator = new Calculator();
+        double result = calculator.Div(i,j);
+        //Assert
+        assertEquals(2.0, result, 1);
+    }
+
+
+
+
 }
+
+
+
+
+
+
