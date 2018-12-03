@@ -14,7 +14,7 @@ public class CalculatorTest {
     //Description: Test to check the addition of two positive integer numbers. First input is 15 and second input is 16. It's expected the result of 31
     public void testSum_input15and16_expect31() {
         //Arrange
-        double i = 15; 
+        double i = 0;
         double j = 16;
         //Act
         Calculator calculator = new Calculator();
